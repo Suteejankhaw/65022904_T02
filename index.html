@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example JavaScript DOM</title>
+    <script src="Example.js"></script>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required style="margin-left: 18px;"><br>
+      <br>
+      <label for="surname">Surname</label>
+      <input type="text" id="surname" name="surname" required><br>
+      <br>
+      <label for="dob">Date of Birth</label><br>
+      <br>
+      <input type="date" id="dob" name="dob" required><br>
+      <br>
+      <label>Select Your Language </label>
+        <select id="language">
+        <option value="">--Select--</option>
+        <option value="C">C</option> 
+        <option value="Java">Java</option>
+        <option value="JavaScript">JavaScript</option> 
+        <option value="Python">Python</option>
+        </select>
+      
+      <br><br>
+      <input type="button" value="Submit" onclick="submitForm()">
+    </form>
+    <div id="result"></div>
+  </body>
+</html>
